@@ -1,0 +1,56 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	border: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font: inherit;
+	transition: all 300ms ease-out;
+}
+
+html,
+body {
+	max-width: 100%;
+	overflow-x: hidden;
+	font-size: 100%;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	min-height: 100%;
+}
+
+p,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	overflow-wrap: break-word;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
